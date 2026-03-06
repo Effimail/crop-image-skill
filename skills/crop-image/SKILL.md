@@ -1,9 +1,8 @@
 ---
 name: crop-image
 description: >
-  Crop images through the deployed Crop Image service using URL-based requests
-  (`POST /crop`) or file uploads (`POST /crop/upload`), with production URL
-  output and API error handling.
+  Crop images through the deployed Crop Image service using URL requests or file
+  uploads, with production URL output and API error handling.
 version: "0.1.0"
 author: Effimail
 tags:
