@@ -1,23 +1,16 @@
 ---
 name: crop-image
 description: >
-  Use this skill when an AI agent needs to crop images through the deployed Crop
-  Image service. Trigger this for URL-based cropping (`POST /crop`) and
-  file-upload cropping (`POST /crop/upload`), especially when returning
-  production URLs and handling API-level errors.
+  Crop images through the deployed Crop Image service using URL-based requests
+  (`POST /crop`) or file uploads (`POST /crop/upload`), with production URL
+  output and API error handling.
 version: "0.1.0"
+author: Effimail
 tags:
-  - image-processing
+  - image
   - crop
   - fastapi
   - api
-license: MIT
-metadata:
-  version: "0.1.0"
-  homepage: "https://imageclaw.net"
-  docs: "https://api.imageclaw.net/docs"
-  api_base_url: "https://api.imageclaw.net"
-  maintainer: "imageclaw"
 ---
 
 # Crop Image Skill
