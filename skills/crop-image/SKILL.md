@@ -12,6 +12,9 @@ tags:
   - fastapi
   - api
 license: MIT
+compatibility:
+  claude_code: ">=1.0.0"
+  claude_desktop: ">=1.0.0"
 metadata:
   version: "0.1.0"
   homepage: "https://imageclaw.net"
