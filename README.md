@@ -12,7 +12,6 @@ Skill repository for the deployed Crop Image API.
 ```text
 crop-image-skill/
 ├── README.md
-├── SKILL.md
 └── skills/
     └── crop-image/
         └── SKILL.md
