@@ -96,6 +96,6 @@ When failure occurs:
 
 ```json
 {
-  "detail": "URL does not point to a valid image"
+  "detail": "Not an image: content-type is application/json"
 }
 ```

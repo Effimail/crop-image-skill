@@ -49,13 +49,13 @@ Response:
 
 ## API Example (Failure)
 
-Request with invalid image URL:
+Request with non-image URL:
 
 ```bash
 curl -sS -X POST "https://api.imageclaw.net/crop" \
   -H "content-type: application/json" \
   -d '{
-    "url": "https://example.com/not-an-image",
+    "url": "https://httpbin.org/json",
     "width": 200,
     "height": 200
   }'
@@ -65,6 +65,6 @@ Response (`400`):
 
 ```json
 {
-  "detail": "URL does not point to a valid image"
+  "detail": "Not an image: content-type is application/json"
 }
 ```
